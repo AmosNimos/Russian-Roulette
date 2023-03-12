@@ -1,6 +1,7 @@
 # Russian-Rullet
 
-![image](https://i.pinimg.com/736x/b9/1b/36/b91b368ed3c624d9c3d7379a3b3754ee.jpg)
+![alt text](https://i.pinimg.com/736x/b9/1b/36/b91b368ed3c624d9c3d7379a3b3754ee.jpg | width=200)
+
 
 is a Python program that generates a random number between 0 and 5. If the number generated is 0, the program will delete the entire system. This program should only be used in a virtual machine and not on a real system. Use at your own risk.
 
