@@ -1,4 +1,7 @@
 # Russian-Rullet
+
+![image](https://i.pinimg.com/736x/b9/1b/36/b91b368ed3c624d9c3d7379a3b3754ee.jpg)
+
 is a Python program that generates a random number between 0 and 5. If the number generated is 0, the program will delete the entire system. This program should only be used in a virtual machine and not on a real system. Use at your own risk.
 
 ## Usage
@@ -7,11 +10,11 @@ To run the program, make sure you have Python installed on your system and run t
 
 python russian_rullet.py
 
-# About the Creator
+## About the Creator
 
 The "russian_rullet.py" program was created by Amosnimos as a proof of concept and is not intended for any malicious use. Amosnimos is an independent software developer who enjoys experimenting with different programming concepts and technologies.
 
-# The Infamous Russian Rullet Program: A Dangerous Game of Chance
+## The Infamous Russian Rullet Program: A Dangerous Game of Chance
 
 The Russian Rullet program is a controversial software application that has gained notoriety in the computer programming community. Developed by a programmer known only by the pseudonym "amosnimos," the program is designed to simulate the game of Russian roulette on a computer.
 
