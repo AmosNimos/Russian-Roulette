@@ -26,6 +26,11 @@ To run the program, make sure you have Python installed on your system and run t
 
 python russian_rullet.py
 
+## Why 0 to 5?
+In computer programming, it is common practice to start counting at 0 instead of 1. This is because most programming languages use zero-based indexing, where the first element of an array or list is at index 0. By choosing a random number between 0 and 5 instead of 1 to 6, we are adhering to this convention and allowing for cleaner code.
+
+In addition, choosing 0 as one of the possible outcomes allows for the use of the "if not" condition in the code. If the random number generated is 0, then the "if not" condition will evaluate to True and allow for certain code to be executed. This can be useful in many situations and is another reason why starting at 0 is a common practice in programming.
+
 ## About the Creator
 
 The "russian_rullet.py" program was created by Amosnimos as a proof of concept and is not intended for any malicious use. Amosnimos is an independent software developer who enjoys experimenting with different programming concepts and technologies.
