@@ -4,6 +4,18 @@
 
 is a Python program that generates a random number between 0 and 5. If the number generated is 0, the program will delete the entire system. This program should only be used in a virtual machine and not on a real system. Use at your own risk.
 
+## Requirements
+
+This program was written in Python 3 and requires the following packages to be installed:
+
+    random (built-in)
+    shutil (built-in)
+    win32security
+    ntsecuritycon
+    time (built-in)
+
+Please note that the program only works on Windows systems and requires administrator privileges to function properly.
+
 ## Disclaimer:
 
 This program is designed to work only on Windows operating system and requires administrator privileges to function properly. The program is not intended for malicious purposes and the developer takes no responsibility for any harm caused by its use. 
