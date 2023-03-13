@@ -42,3 +42,6 @@ The Russian Rullet program is a controversial software application that has gain
 The program works by randomly generating a number between 0 and 5. If the number generated is 0, the program will delete the entire system, essentially rendering the computer useless. This outcome has led to concerns about the potential for harm if the program is used maliciously.
 
 It's important to note that the Russian Rullet program was not created with ill intent. Rather, it was developed as a proof-of-concept to demonstrate the potential risks of running untrusted code on a computer. The creator of the program has emphasized the importance of using it only in a controlled environment, such as a virtual machine, and warns against running it on a personal or work computer.
+
+NOTE:
+A russian-rullet.sh script has been added for linux users. I have not tested the final version of both script as of now. so please repport it, if you find any issues with the intended result of these code, or if you have any suggestion to improve the code.
