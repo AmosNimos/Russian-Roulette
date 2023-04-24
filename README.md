@@ -1,4 +1,4 @@
-# Rrussian roulette
+# Russian roulette
 
 ![image](https://static.thenounproject.com/png/556976-200.png)
 
