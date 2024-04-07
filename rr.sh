@@ -13,10 +13,51 @@ click_sound="click.ogg"
 sound_dir="/usr/share/sounds/freedesktop/stereo"
 bap_sound="${sound_dir}/service-logout.oga"
 
+# Define the frames of the animation
+frame1="
+  ___
+ / @ \\
+ |( (|
+ \\_(_/
+"
+
+frame2="
+  ___
+ / ( \\
+ |( @|
+ \\_(_/
+"
+
+frame3="
+  ___
+ / ( \\
+ |( (|
+ \\@__/
+"
+
+frame4="
+  ___
+ / ( \\
+ |@ (|
+ \\_(_/
+"
+
+# Store the frames in an array
+frames=("$frame1" "$frame2" "$frame3" "$frame4" "$frame1")
+
 function play(){
     mpv "$@" &> /dev/null & disown
 }
 
+play $spin_sound    
+
+function animation(){
+    for frame in "${frames[@]}"; do
+        clear
+        echo "$frame"
+        sleep 0.2 
+    done
+}
 
 # Generate a random number from 1 to 6
 random_number=$((1 + RANDOM % 6))
@@ -25,11 +66,14 @@ random_number=$((1 + RANDOM % 6))
 delay=0.1
 
 # Print the sound of rolling the cartridge with decreasing delay
+animation
+clear
 for ((i=1; i<=random_number; i++)); do
     echo -n "Clack! "
     play $spin_sound    
     sleep $delay
     delay=$(bc -l <<< "$delay + 0.1")
+    
 done
 
 echo   # Print a newline
@@ -87,4 +131,3 @@ else
   clear
   figlet "Click!"
 fi
-
